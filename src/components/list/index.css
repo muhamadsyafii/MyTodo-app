@@ -1,3 +1,12 @@
+/*
+ * Created by Muhamad Syafii
+ * Friday, 20/01/2023
+ * Learning Week FrontEnd Developer
+ * Copyright (c) 2023 by Moladin.
+ * All Rights Reserved
+ */
+
+
 .list {
     display: flex;
     margin-top: 2px;
@@ -11,3 +20,8 @@
   .list-content p,.list-content h3 {
     margin: 0;
   }
+  .strike {
+    text-decoration: line-through;
+    color: black;
+  }
+  

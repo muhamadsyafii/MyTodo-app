@@ -1,3 +1,11 @@
+/*
+ * Created by Muhamad Syafii
+ * Friday, 20/01/2023
+ * Learning Week FrontEnd Developer
+ * Copyright (c) 2023 by Moladin.
+ * All Rights Reserved
+ */
+
 .form-todo form {
     display: flex;
   }
@@ -12,3 +20,4 @@
   input {
     width: 100%;
   }
+  
