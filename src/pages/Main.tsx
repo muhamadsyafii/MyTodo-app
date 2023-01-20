@@ -55,8 +55,11 @@ const Main = () => {
   //this is for complete todo list
   const onCompleteList = async (data: ListProps) => {
     try {
-      Axios.patch(`${baseUrl}/lists/${data.id}`, {
+      Axios.put(`${baseUrl}/lists/${data.id}`, {
         completed: !data.completed,
+        title: data.title,
+        id: data.id,
+        description: data.description,
       }).then(() => getLists());
     } catch (e) {
       alert(e);
@@ -76,6 +79,8 @@ const Main = () => {
   const onComplete = (data: ListProps) => {
     onCompleteList(data);
   };
+
+  //arigatou gozaimasu
 
   //this is for detele todo list
   const onDelete = (id: number) => {
